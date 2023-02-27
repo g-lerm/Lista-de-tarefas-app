@@ -4,29 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planejador de Tarefas</title>
+    <title>Task List</title>
 
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css" />
 </head>
 <body>
 
     <header>
-        <h1>Planejador de Tarefas</h1>
+        <h1>Task List</h1>
         <form= id="new-task-form">
             <input 
                 type="text" 
+                name="new-task-input"
                 id="new-task-input"
-                placeholder="O que você têm planejado?" />
+                placeholder="What do you have planned?" />
             <input
                 type="submit"
                 id="new-task-submit" 
-                value="Adicionar tarefa">
+                value="Add task">
         </form>
     </header>
-
     <main>
         <section class="task-list">
-            <h2>Tarefas</h2>
+            <h2>Tasks</h2>
 
             <div id="tasks">
 
@@ -35,13 +35,12 @@
                         <input 
                             type="text"
                             class="text"
-                            value="Minha Tarefa"
+                            value="A new task"
                             readonly
-                        />
                     </div>
                         <div class="actions">
-                            <button class="edit">Editar</button>
-                            <button class="delete">Deletar</button>
+                            <button class="edit">Edit</button>
+                            <button class="delete">Delete</button>
                         </div>
                 </div>-->
 
